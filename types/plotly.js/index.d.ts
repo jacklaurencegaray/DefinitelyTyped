@@ -301,6 +301,7 @@ export interface Legend extends Label {
 export type AxisType = '-' | 'linear' | 'log' | 'date' | 'category';
 
 export interface Axis {
+    autotick: boolean;
 	visible: boolean;
 	color: Color;
 	title: string;
